@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Claude Liang Lexi, a freshman in SUSTech.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+GOING TO FAIL IN LINEAR ALGEBRA!! 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[12511803@mail.sustech.edu.cn](mailto:12511803@mail.sustech.edu.cn)
