@@ -10,38 +10,74 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-<script type="text/javascript" async
+<script>
 
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    window.MathJax = {
 
-</script>
+      tex: {
 
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
 
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
 
-<script type="text/x-mathjax-config">
+        processEscapes: true,
 
-  MathJax.Hub.Config({
+        tags: 'ams'  // 启用自动公式编号
 
-    tex2jax: {
+      },
 
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      options: {
 
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
 
-      processEscapes: true
+        ignoreHtmlClass: 'tex2jax_ignore',
 
-    },
+        processHtmlClass: 'tex2jax_process'
 
-    "HTML-CSS": { 
+      },
 
-      preferredFont: "TeX", 
+      chtml: {
 
-      availableFonts: ["STIX","TeX"], 
+        scale: 1.1,  // 调整公式大小
 
-      linebreaks: { automatic: true } 
+        displayAlign: 'center',
+
+        displayIndent: '2em'
+
+      },
+
+      svg: {
+
+        scale: 1.1,
+
+        displayAlign: 'center',
+
+        displayIndent: '2em'
+
+      }
+
+    };
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+
+  <style>
+
+    .MathJax {
+
+      font-size: 1.1em;
 
     }
 
-  });
+    .MJXc-display {
 
-</script>
+      margin: 1em 0;
+
+      overflow-x: auto;
+
+      overflow-y: hidden;
+
+    }
+
+  </style>
