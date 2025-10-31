@@ -40,7 +40,7 @@ For any $m \times n$ matrix A, there are four fundamental subspaces:
   2. Identify the pivot columns in RREF
   3. The corresponding columns in the original matrix A form a basis for the column space
 
-1. $N(A)$ (Kernel)
+2. $N(A)$ (Kernel)
 
 - Definition: The subspace of $\mathbb{R}^n$ consisting of all vectors $\mathbf{x}$ such that$ A\mathbf{x} = \mathbf{0}$
 - Dimension: $n - r$ (by Rank-Nullity Theorem)
@@ -50,7 +50,7 @@ For any $m \times n$ matrix A, there are four fundamental subspaces:
 
 
 
-1. $C(A^{T})$
+3. $C(A^{T})$
 
 - Definition: The subspace of $\mathbb{R}^n$ spanned by the row vectors of $A$
 - Dimension: $r = \text{rank}(A)$
@@ -59,7 +59,7 @@ For any $m \times n$ matrix A, there are four fundamental subspaces:
   2. The non-zero rows in RREF form a basis for the row space
   - Note: Row operations preserve the row space
 
-1. $N(A^{T})$
+4. $N(A^{T})$
 
 - Definition: The subspace of $\mathbb{R}^m$ consisting of all vectors $\mathbf{y}$ such that $A^T\mathbf{y} = \mathbf{0}$
 - Dimension: $m - r$
