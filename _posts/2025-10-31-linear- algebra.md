@@ -9,7 +9,7 @@ title: Linear Algebra - some notes
 I haven't prepared well for it. I wish it will be a good result.
 
 ## Some rank inequalities
-- $r(\mathbf{AB}) \leq min \{r(\mathbf{A}), r(\mathbf{B})\}$
+- $r(\mathbf{AB}) \leq min \left\\{ r(\mathbf{A}), r(\mathbf{B}) \right\\} $
 - $r(\mathbf{A}) = r(\mathbf{A^{T}}) = r(\mathbf{AA^{T}})$
 - $r(\mathbf{A + B}) \leq r(\mathbf{A}) + r(\mathbf{B}) \leq n + r(\mathbf{AB})$ (sylvester rank inequality)
 - $r(\mathbf{ABC}) +r(\mathbf{B}) \geq r(\mathbf{AB}) + r(\mathbf{BC}) $ (Frobenius rank inequality)
