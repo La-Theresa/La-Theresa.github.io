@@ -17,12 +17,12 @@ Tomorrow will be the **DAY**.
 
 ## Some identities
 - $(A-BDC)^{-1} = A^{-1} - A^{-1}B(D^{-1}+CA^{-1}B)^{-1} CA^{-1} $ (Woodbury identity)
-- $((A-B^{-1})-A^{-1})^{-1} = ABA-A $ (Hua's identity)
+- $((A-B^{-1})^{-1}-A^{-1})^{-1} = ABA-A $ (Hua's identity)
 
 ## Notes
 - **Schwarz inequality**: $\lvert a^{T}b \rvert \leq \lvert \lvert a \rvert \rvert  \cdot  \lvert \lvert b \rvert \rvert $
 - projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad $ $$P=\begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$$
-- If $\mathbf{W=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
+- If $\mathbf{W^{\prep}=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
 - orthogonal vectors: $x^{T}y = 0$
 - Rotation matrix $$R = \begin{bmatrix} c & -s \\ s & c \end{bmatrix}$$
 - Reflection matrix $$H = \begin{bmatrix} 2c^{2}-1 & 2cs \\ 2cs & 2s^{2}-1 \end{bmatrix}$$
