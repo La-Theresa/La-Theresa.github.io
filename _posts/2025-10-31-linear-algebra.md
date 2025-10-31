@@ -20,16 +20,16 @@ I haven't prepared well for it. I wish it will be a good result.
 
 ## Notes
 - **Schwarz inequality**: $\lvert a^{T}b \rvert \leq \lvert \lvert a \rvert \rvert  \times  \lvert \lvert b \rvert \rvert $
-- projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad \begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$ 
+- projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad $ $$\begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$$
 - If $\mathbf{W=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
 - orthogonal vectors: $x^{T}y = 0$
-- Rotation matrix $R = \begin{bmatrix} c & -s \\ s & c \end{bmatrix}$
-- Reflection matrix $H = \begin{bmatrix} 2c^{2}-1 & 2cs \\ 2cs & 2s^{2}-1 \end{bmatrix}$
+- Rotation matrix $$R = \begin{bmatrix} c & -s \\ s & c \end{bmatrix}$$
+- Reflection matrix $$H = \begin{bmatrix} 2c^{2}-1 & 2cs \\ 2cs & 2s^{2}-1 \end{bmatrix}$$
 - Linearity: $A(cx+dy) = c(Ax) +d(Ay)$
 - $r = m$ have ***right-inverse***, $B= (A^{T}A)^{-1}A^{T}$ and $r = n$ have ***left-inverse***, $C = A^{T}(AA^{T})^{-1}$
 #### The Four Fundamental Subspaces of a Matrix
 
-For any m \times n matrix A, there are four fundamental subspaces:
+For any $m \times n$ matrix A, there are four fundamental subspaces:
 
 1. $C(A)$ (Range)
 
