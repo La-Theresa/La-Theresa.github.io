@@ -22,7 +22,7 @@ Tomorrow will be the **DAY**.
 ## Notes
 - **Schwarz inequality**: $\lvert a^{T}b \rvert \leq \lvert \lvert a \rvert \rvert  \cdot  \lvert \lvert b \rvert \rvert $
 - projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad $ $$P=\begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$$
-- If $\mathbf{W^{\prep}=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
+- If $\mathbf{W^{\perp}=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
 - orthogonal vectors: $x^{T}y = 0$
 - Rotation matrix $$R = \begin{bmatrix} c & -s \\ s & c \end{bmatrix}$$
 - Reflection matrix $$H = \begin{bmatrix} 2c^{2}-1 & 2cs \\ 2cs & 2s^{2}-1 \end{bmatrix}$$
