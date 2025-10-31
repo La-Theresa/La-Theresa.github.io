@@ -7,6 +7,7 @@ title: Linear Algebra - some notes
 # Upcoming Linear Algebra Midterm Test
 
 I haven't prepared well for it. I wish it will be a good result.
+Tomorrow will be the **DAY**.
 
 ## Some rank inequalities
 - $r(\mathbf{AB}) \leq min \left\\{ r(\mathbf{A}), r(\mathbf{B}) \right\\} $
@@ -14,13 +15,13 @@ I haven't prepared well for it. I wish it will be a good result.
 - $r(\mathbf{A + B}) \leq r(\mathbf{A}) + r(\mathbf{B}) \leq n + r(\mathbf{AB})$ (sylvester rank inequality)
 - $r(\mathbf{ABC}) +r(\mathbf{B}) \geq r(\mathbf{AB}) + r(\mathbf{BC}) $ (Frobenius rank inequality)
 
-## Some euqalities
-- $(A-BDC)^{-1} = A^{-1} - A^{-1}B(D^{-1}+CA^{-1}B)^{-1} CA^{-1} $ (Woodbury equality)
-- $((A-B^{-1})-A^{-1})^{-1} = ABA-A $ (Hua's equality)
+## Some identities
+- $(A-BDC)^{-1} = A^{-1} - A^{-1}B(D^{-1}+CA^{-1}B)^{-1} CA^{-1} $ (Woodbury identity)
+- $((A-B^{-1})-A^{-1})^{-1} = ABA-A $ (Hua's identity)
 
 ## Notes
-- **Schwarz inequality**: $\lvert a^{T}b \rvert \leq \lvert \lvert a \rvert \rvert  \times  \lvert \lvert b \rvert \rvert $
-- projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad $ $$\begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$$
+- **Schwarz inequality**: $\lvert a^{T}b \rvert \leq \lvert \lvert a \rvert \rvert  \cdot  \lvert \lvert b \rvert \rvert $
+- projection matrix $P = \displaystyle\frac{aa^{T}}{a^{T}a} \quad {\text{or}} \quad $ $$P=\begin{bmatrix} c^2 & cs \\ cs & s^2 \end{bmatrix}$$
 - If $\mathbf{W=V} \quad {\text{then}} \quad \dim\mathbf{V} + \dim\mathbf{W} = n $
 - orthogonal vectors: $x^{T}y = 0$
 - Rotation matrix $$R = \begin{bmatrix} c & -s \\ s & c \end{bmatrix}$$
@@ -91,3 +92,7 @@ Key Relationships:
 - Gauss-Jordan method to find inverse
 - Triangular factorization $A=LU \quad {\text{or}} \quad A=LDU$
 - $r(AB)=r(A) \quad {\text{if}} \quad r(B)=n$
+- If $A = u^{T}v \quad {\text{then}} \quad A^{n}= u^{T}(vu^{T})^{n-1}v$
+- Suppose $A^{2}=A ,B^{2}=B;{\text{ then }} AB=BA=0 {\text{ if }} (A+B)^{2}=A+B$
+- Skew-symmetric matrix $A^{T}=-A$
+- To prove $\eta_{1},\eta_{2},\eta_{3} {\text{ are linear independent is equivalent to prove }} c_{1}\eta_{1}+c_{2}\eta_{2}+c_{3}\eta_{3} = 0 {\text{ only when }} c_{1}=c_{2}=c_{3}=0$. Apply $A$ on it serval times may be helpful
