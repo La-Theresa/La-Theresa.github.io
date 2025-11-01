@@ -16,7 +16,7 @@ Tomorrow will be the **DAY**.
 - $r(\mathbf{ABC}) +r(\mathbf{B}) \geq r(\mathbf{AB}) + r(\mathbf{BC}) $ (Frobenius rank inequality)
 
 ## Some identities
-- $(A-BDC)^{-1} = A^{-1} - A^{-1}B(D^{-1}+CA^{-1}B)^{-1} CA^{-1} $ (Woodbury identity)
+- $(A+BDC)^{-1} = A^{-1} - A^{-1}B(D^{-1}+CA^{-1}B)^{-1} CA^{-1} $ (Woodbury identity)
 - $((A-B^{-1})^{-1}-A^{-1})^{-1} = ABA-A $ (Hua's identity)
 
 ## Notes
